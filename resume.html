@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Digital Resume</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Rasa&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style type="text/css">
+      body { 
+            animation: fadeInAnimation ease 3s; 
+            animation-iteration-count: 1; 
+            animation-fill-mode: forwards;
+            background: linear-gradient(to right, #2c3e50, #fd746c); 
+        } 
+      @keyframes fadeInAnimation { 
+          0% { 
+              opacity: 0; 
+          } 
+          100% { 
+              opacity: 1; 
+          } 
+      }
+      p{
+        font-family: 'Rasa', serif;
+      }
+      .span4 img {
+        margin-right: 30px;
+      }
+      .span4 .img-left {
+        float: left;
+      }
+      .span4 .img-right {
+        float: right;
+      }
+      div.nice{
+        border-radius: 15px;
+        background-color: white;
+        padding: 4%;
+        padding-bottom: 1px;
+        box-shadow: 0 0 30px #333;
+      }
+      nav {
+        text-align: right;
+        margin: 20px 0 0 ;
+        padding: 10px 0;
+      }
+      a:hover{
+        text-decoration: none;
+      }
+      nav ul{
+        list-style: none;
+        margin: 0 2px;
+        padding: 0;
+      }
+
+      nav li {
+        display: inline-block;
+        padding: 5px 5px;
+      }
+
+      nav a {
+        padding: 10px 30px;
+        font-size: 1em;
+        font:bolder;
+        color: rgb(126, 151, 163);
+        text-decoration: none;
+        text-transform:uppercase;
+        font-family: 'Oswald', sans-serif;
+        text-shadow: 2px 2px 4px #000000;
+      }
+      .adjust{
+        width: 100%; /* Full width */
+        background-color: #2c3e50; /* Grey background */
+        border-radius: 5px;
+      }
+      .skills {
+        text-align: right; /* Right-align text */
+        color: white; /* White text color */
+        border-radius: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+      .html {width: 100%; background-color: orange;} /* Green */
+      .css {width: 80%; background-color: #2196F3;} /* Blue */
+      .js {width: 65%; background-color: red;} /* Red */
+      .c{width: 80%; background-color:indigo;} /* Dark Grey */
+      .py{width: 40%; background-color:teal;}
+      .sql{width: 20%; background-color:orchid;}
+    </style>
+    <nav>
+      <ul>
+        <li><a class="active" href="index.html">About Me</a></li>
+        <li><a href="#">Resume</a></li>
+        <li><a href="gallary.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="nice">
+            <div class="block">
+                <h1 style="font-family: 'Oswald', sans-serif;">Yuriy Mikhailidi <h1>
+                <p style="font-size:15px; color:grey;">(239)-777-9518 | yuriy.mikhailidi@gmail.com | 2933 W 116th Pl. Apt 106. Westminster, CO 80234</p>
+                <h2 style="font-size: 20px; font-family: 'Oswald', sans-serif;">Resume Summary</h2>
+                <hr style="border: 1px solid grey;">
+                <p>
+                  Professional and outgoing personality ready to work in a fast-paced environment. Over 2 years of experience in several fields of customer service and sales. Maintained the happiness of clients and met their needs with exceptional service on a daily.
+                  Matched customers’ accounts needs as well as help to discover new services and products as being a part of the sales team. 
+                  Currently enrolled at  the University of Colorado Boulder pursuing major in Computer Science with minor in Technology Arts and Media, with two years of experience learning and working with various programming languages and development environments. 
+                </p>
+                <h3 style="font-size: 20px; font-family: 'Oswald', sans-serif;">Soft Skills</h3>
+                <hr style="border: 1px solid grey;">
+                <p>
+                  <ul style="
+                    -moz-column-count: 4;
+                    -moz-column-gap: 20px;
+                    -webkit-column-count: 4;
+                    -webkit-column-gap: 20px;
+                    column-count: 4;
+                    column-gap: 20px;">
+                    <li>Collaborator</li>
+                    <li>Customer relations</li>
+                    <li>Ability to meet deadlines</li>
+                    <li>Strong verbal communication</li>
+                    <li>Ability to inform and explain procedures </li>
+                    <li>Account management</li>
+                    <li>Solve the Numerical and Quantitative problems</li>
+                    <li>Knowledge in the computer systems</li>
+                    <li>Proficiency in Microsoft Office</li>
+                  </ul>
+                </p>
+                <h4 style="font-size: 20px; font-family: 'Oswald', sans-serif;">Programming Skills</h4>
+                <hr style="border: 1px solid grey;">
+                <div style="box-sizing:border-box; font-size: 15px; font-family: 'Oswald', sans-serif; padding-bottom: 10px;">
+                  <p>HTML</p>
+                  <div class="adjust">
+                    <div class="skills html">100%</div>
+                  </div>
+
+                  <p>CSS</p>
+                  <div class="adjust">
+                    <div class="skills css">80%</div>
+                  </div>
+
+                  <p>JavaScript</p>
+                  <div class="adjust">
+                    <div class="skills js">65%</div>
+                  </div>
+
+                  <p>C++</p>
+                  <div class="adjust">
+                    <div class="skills c">80%</div>
+                  </div>
+                  <p>Python</p>
+                  <div class="adjust">
+                    <div class="skills py">40%</div>
+                  </div>
+                  <p>PostgresSQL</p>
+                  <div class="adjust">
+                    <div class="skills sql">20%</div>
+                  </div>
+                </div>
+                <h5 style="font-size: 20px; font-family: 'Oswald', sans-serif;"> Recent Work Experience</h5>
+                <hr style="border: 1px solid grey;">
+                <div>
+                  <h6 style="font-size: 17px; font-family: 'Oswald', sans-serif;">Verizon GoWireless- Denver, CO/ Naples, FL</h6>
+                  <h7 style="font-size: 13px; font-family: 'Oswald', sans-serif;">Wireless Consultant | 04/2018 to Current</h7>
+                  <ul>
+                    <li>Providing the maximum options on the improvement of service for new and existing customers.</li>
+                    <li>Successfully provided customers with new devices and the setup of the product.</li>
+                    <li>Operation of point of sale systems with maximizing the sale potential for the company and the clients.</li>
+                    <li>Directly working in teams providing with the best options for personal and small business clientele.</li>
+                    <li>Daily inventory management, customer service, billing advising, and technical support.</li>
+                  </ul>
+                </div>
+                <h8 style="font-size: 20px; font-family: 'Oswald', sans-serif;">Projects</h8>
+                <hr style="border: 1px solid grey;">
+                <div>
+                  <h9 style="font-size: 17px; font-family: 'Oswald', sans-serif;">Mini-Map Navigation | </h9>
+                  <h10 style="font-size: 13px; font-family: 'Oswald', sans-serif;">Main Skills: C++ loops, Array Manipulation, Double Arrays</h10>
+                  <p style="text-align: left;">
+                      Created a Mini-Map for a small video-game based of Dungeon and Dragons with a text-interactive map that supports traditional
+                      "WASD" movement of video-game character. Developed skills in C++ such as understanding array, double arrays, as well
+                      functions that preform probability calculations.
+                  </p>
+                </div>
+                <div>
+                  <h11 style="font-size: 17px; font-family: 'Oswald', sans-serif;">HTML Choice Based Story | </h11>
+                  <h12 style="font-size: 13px; font-family: 'Oswald', sans-serif;">Main Skills: JavaScript, HTML/CSS</h12>
+                  <p style="text-align: left;">
+                      Using HTML/CSS and JavaScript created a choice based narrative story. Project helped understanding of HTML/CSS and JavaScript.
+                      Developed understanding of how attributes, styling, JavaScript work together in order to create web-sites.
+                  </p>
+                </div>
+                <div>
+                  <h13 style="font-size: 17px; font-family: 'Oswald', sans-serif;">Hash-Function Performance | </h13>
+                  <h14 style="font-size: 13px; font-family: 'Oswald', sans-serif;">Main Skills: Data Structures, Hash Table Manipulation, Performance Measurement</h14>
+                  <p style="text-align: left;">
+                      Developed deeper understanding of C++, learned data structures, their performance and manipulation. Main goal of a project was collision resolution for
+                      Hash Tables; as well, graphing the performance on the collision resolution.
+                  </p>
+                </div>
+                <div>
+                  <h15 style="font-size: 17px; font-family: 'Oswald', sans-serif;">K Means Algorithm | </h15>
+                  <h16 style="font-size: 13px; font-family: 'Oswald', sans-serif;">Main Skills: Python Libraries, Pandas, NumPy</h16>
+                  <p style="text-align: left;">
+                      Increased skills in Python, and learned Libraries such NumPy. Performed K Means Algorithm on large data sample; as well, this projected imporved
+                      understanding of linear algebra specifically vector manipulation.
+                  </p>
+                </div>
+                <h17 style="font-size: 20px; font-family: 'Oswald', sans-serif;">Education and Training</h17>
+                <hr style="border: 1px solid grey;">
+                <div>
+                  <h18 style="font-size: 17px; font-family: 'Oswald', sans-serif;"> High School Education</h18>
+                    <p>
+                    Gulf Coast High School – Naples, Fl | High School Diploma, 2016.
+                    Honors: Cum Laude (GPA: 4.1), Scholar Desigantion, Merit Designation.
+                    </p>
+                  <h19 style="font-size: 17px; font-family: 'Oswald', sans-serif;">College Education</h19>
+                    <p>
+                    University of Colorado Boulder – Boulder, CO | Bachelors of Arts, Computer Science (Major) / Technology Arts and Media (Minor), Current.
+                    <br>
+                    Florida SouthWestern State College – Naples, FL | Associate in Arts, General Studies, 2018.
+                    </p>
+                  <h20 style="font-size: 17px; font-family: 'Oswald', sans-serif;">Training</h20>
+                    <p>
+                    Autodesk AutoCAD Inventor Certification, 2015.
+                    <br>
+                    Autodesk AutoCAD, 2017.
+                    </p>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

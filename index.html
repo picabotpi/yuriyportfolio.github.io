@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Digital Resume</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Rasa&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style type="text/css">
+      body { 
+            animation: fadeInAnimation ease 3s; 
+            animation-iteration-count: 1; 
+            animation-fill-mode: forwards;
+            background: linear-gradient(to right, #2c3e50, #fd746c); 
+        } 
+        @keyframes fadeInAnimation { 
+            0% { 
+                opacity: 0; 
+            } 
+            100% { 
+                opacity: 1; 
+            } 
+        }
+      p{
+        font-family: 'Rasa', serif;
+      }
+      .span4 img {
+        margin-right: 30px;
+      }
+      .span4 .img-left {
+        float: left;
+      }
+      .span4 .img-right {
+        float: right;
+      }
+      div.nice{
+        border-radius: 15px;
+        background-color: white;
+        padding: 2%;
+        padding-bottom: 1%;
+        box-shadow: 0 0 30px #333;
+      }
+      nav {
+        text-align: right;
+        margin: 20px 0 0 ;
+        padding: 10px 0;
+      }
+
+      nav ul{
+        list-style: none;
+        margin: 0 2px;
+        padding: 0;
+      }
+
+      nav li {
+        display: inline-block;
+        padding: 5px 5px;
+      }
+
+      nav a {
+        padding: 10px 30px;
+        font-size: 1em;
+        font:bolder;
+        color:rgb(126, 151, 163);
+        text-decoration: none;
+        text-transform:uppercase;
+        font-family: 'Oswald', sans-serif;
+        text-shadow: 2px 2px 4px #000000;
+      }
+      a:hover{
+        text-decoration: none;
+      }
+      .fa {
+        padding: 10px;
+        font-size: 10px;
+        width: 30px;
+        text-align: auto;
+        text-decoration: none;
+        border-radius: 50%;
+      }
+      .fa-twitter{
+        color: gray;
+        box-shadow: 5px 5px 5px rgb(82, 95, 104);
+      }
+      .fa-instagram{
+        color: gray;
+        box-shadow: 5px 5px 5px rgb(82, 95, 104);
+      }
+      .fa-linkedin{
+        color: gray;
+        box-shadow: 5px 5px 5px rgb(82, 95, 104);
+      }
+    </style>
+    <nav>
+      <ul>
+        <li><a class="active" href="#">About Me</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="gallary.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </head>
+  <body>
+      <div class="container">
+        <div  class="row">
+            <div class="col">
+              <div  class="nice">
+                <div class="block">
+                    <div class="row">
+                      <div class="span4 text-left">
+                        <img src="img/profile.jpg" class="img-left" style="width: 500px; box-shadow: 10px 10px 5px lightgrey; border-radius: 1%;">
+                          <div class="content-heading">
+                            <h1 style="font-size: 20px; font-family: 'Oswald', sans-serif;color: darkgray;">
+                              Hello everybody, I am
+                            </h1>
+                            <h2 style="font-family: 'Oswald', sans-serif;">
+                              Yuriy Mikhailidi
+                            </h2>
+                          </div>
+                          <br/>
+                          <p>
+                          My story begins in Kazakhstan. I lived most of my life in the city of Almaty.
+                          I moved to United States six years ago, and now I can proudly call myself a citizen of this country.
+                          I chose the University of Colorado Boulder for all the opportunities it has to offer to its students. I am currently majoring in Computer Science with a minor in Technology Arts and Media.
+                          </p>
+                          <p>
+                          My passion is Computer Science; however, I have always been fascinated with math as well as science. I was influenced by my father to become a computer scientist.
+                          We always had a computer in the household; and, I loved to watch my dad work, even though I never understood what he was doing. I can proudly say that he is my hero and I strive to be like him.
+                          I am proud that in two years while being at CU Boulder, I learned how to build programs, webpages, and learned multiple computer languages and development environments. I believe in diversifying myself in variates of fields such as: digital media, network security, transaction systems, and system architecture.
+                          I love what I am studying, my family and the University of Colorado Boulder.
+                          </p>
+                          <br/>
+                          <p style="color: gray;">
+                            08/25/1997 | (239)-777-9518 | yuriy.mikhailidi@gmail.com   
+                            <a href="https://twitter.com/YMikhailidi" class="fa fa-twitter" target="_blank"></a>
+                            <a href="https://www.instagram.com/yuriymikhailidi/" class="fa fa-instagram" target="_blank"></a>
+                            <a href="https://www.linkedin.com/in/yuriy-mikhailidi-52b988177" class="fa fa-linkedin" target="_blank"></a>
+                          </p>
+                          <img src="img/signature.jpg" class="center">
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </body>
+</html>

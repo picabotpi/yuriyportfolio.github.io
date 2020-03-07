@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Digital Resume</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Rasa&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style type="text/css">
+      body { 
+            animation: fadeInAnimation ease 3s; 
+            animation-iteration-count: 1; 
+            animation-fill-mode: forwards;
+            background: linear-gradient(to right, #2c3e50, #fd746c); 
+        } 
+        @keyframes fadeInAnimation { 
+            0% { 
+                opacity: 0; 
+            } 
+            100% { 
+                opacity: 1; 
+            } 
+        }
+      p{
+        font-family: 'Rasa', serif;
+      }
+      div.nice{
+        border-radius: 15px;
+        background-color: white;
+        box-shadow: 0 0 30px #333;
+        padding-bottom: 2%;
+        padding: 2%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        margin-left: 2%;
+        margin-right: 2%;
+      }
+      nav {
+        text-align: right;
+        margin: 20px 0 0 ;
+        padding: 10px 0;
+      }
+
+      nav ul{
+        list-style: none;
+        margin: 0 2px;
+        padding: 0;
+      }
+
+      nav li {
+        display: inline-block;
+        padding: 5px 5px;
+      }
+
+      nav a {
+        padding: 10px 30px;
+        font-size: 1em;
+        font:bolder;
+        color:rgb(126, 151, 163);
+        text-decoration: none;
+        text-transform:uppercase;
+        font-family: 'Oswald', sans-serif;
+        text-shadow: 2px 2px 4px #000000;
+      }
+      a:hover{
+        text-decoration: none;
+      }
+      img {
+        transition:transform 0.25s ease;
+        width: 200px;
+        height: 200px;
+        box-shadow: 12px 0 15px -4px rgba(58, 70, 83, 0.8), -12px 0 8px -4px rgba(58, 70, 83, 0.8);
+
+        margin: 2%;
+      }
+
+      img:hover {
+        -webkit-transform:scale(5.0); /* or some other value */
+        transform:scale(1.5);
+      }
+    </style>
+    <nav>
+      <ul>
+        <li><a class="active" href="index.html">About Me</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="gallary.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row h-100">
+        <div class="nice">
+              <div style="text-align: center;">
+                <h1 style="font-size:50px;font-family: 'Oswald', sans-serif;color: darkgray;">Welcome to my gallery.</h1>
+                  <p>
+                    I love nature, photography, and travel.
+                    Here I will host some of my recent, past, and favorite pictures.
+                  </p>
+                  <p style="color: lightgray;">
+                    This page is ongoing project, more modifications will be added.
+                  </p>
+              </div>
+              <hr style="border: 1px solid grey;">
+              <div style="text-align: center;">
+                <img  src="img/tree2.jpg">
+                <img  src="img/branch.jpg">
+                <img  src="img/tree.jpg">
+                <img  src="img/grass.jpg">
+                <img  src="img/perspective.jpg">
+                <img  src="img/estes.jpg">
+                <img  src="img/branch2.jpg">
+                <img  src="img/branch3.jpg">
+                <img  src="img/land1.jpg">
+                <img  src="img/pond.jpg">
+                <img  src="img/rocks.jpg">
+                <img  src="img/disney.jpg">
+                <img  src="img/butterfly.jpg">
+                <img  src="img/doge.jpg">
+                <img  src="img/frog.jpg">
+                <img  src="img/cat.jpg">
+              </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
